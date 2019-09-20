@@ -11,7 +11,7 @@ This code requires the following:
 * MuJoCo license
 
 ### Data
-* For the 2D navigation domain, data is generated from `myrllib/envs/navigation.py`
+* For the 2D navigation domains, data is generated from `myrllib/envs/navigation.py`
 * For the Hopper/HalfCheetah/Ant Mujoco domains, the modified Mujoco enviornments are in `myrllib/envs/mujoco/*`
 
 ### Usage 
