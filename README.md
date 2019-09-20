@@ -15,9 +15,12 @@ This code requires the following:
 * For the Hopper/HalfCheetah/Ant Mujoco domains, the modified Mujoco enviornments are in `myrllib/envs/mujoco/*`
 
 ### Usage 
-* For example, to run the code in the 2D Navigation domain with type I dynamic environment, just run the bash script `./navigation_v1.sh`, also see the usage instructions in the script, `env_clustering.py`, and `policy_training.py`.
-* When getting the results in .mat files, plot the results using `data_process.py`. For example, the results for `./navigation_v1.sh` is as follow:
-![experimental results for navigation domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/navigation_v1.png)
+* For example, to run the code in the 2D Navigation domain with type I dynamic environment, just run the bash script `navigation_v1.sh`, also see the usage instructions in the python scripts, `env_clustering.py`, and `policy_training.py`.
+* When getting the results in .mat files, plot the results using `data_process.py`. For example, the results for `navigation_v3.sh` and `ant.sh` are as follow:
+
+navigation_v3 | ant
+------------ | -------------
+![experimental results for navigation_v3 domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/navigation_v3.png) | ![experimental results for ant domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/ant.png)
 
 Also, the results for other demo scripts are shown in `exp/*`
 
