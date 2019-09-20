@@ -5,7 +5,7 @@ It contains code for running the incremental learning domain tasks, including 2D
 
 ### Dependencies
 This code requires the following:
-* python 3.\*
+* python 3.5+
 * pytorch 0.4+
 * gym
 * MuJoCo license
