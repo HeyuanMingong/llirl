@@ -16,7 +16,7 @@ This code requires the following:
 
 ### Usage 
 * For example, to run the code in the Ant domain where the dynamic environment is contructed by changing the goal velocity, just run the bash script `ant.sh`, also see the usage instructions in the python scripts `env_clustering.py` and `policy_training.py`.
-* When getting the results in .mat files, plot the results using `data_process.py`. For example, the results for `navigation_v3.sh` and `half_cheetah.sh` are as follow:
+* When getting the results in `output/*/*.npy` files, plot the results using `data_process.py`. For example, the results for `navigation_v3.sh` and `half_cheetah.sh` are as follow:
 
 navigation_v3 | ant
 ------------ | -------------
