@@ -27,7 +27,7 @@ Also, the results for other demo scripts are shown in `exp/*`
 ### Contact 
 For safety reasons, the source code is coming soon.
 
-To ask questions or report issues, please open an issue on the [issues tracker](https://github.com/HeyuanMingong/llirl/issues), or email to njuwangzhi@gmail.com.
+To ask questions or report issues, please open an issue on the [issues tracker](https://github.com/HeyuanMingong/llirl/issues), or email to zhiwang@nju.edu.cn.
  
 
 
