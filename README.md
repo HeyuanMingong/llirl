@@ -20,7 +20,7 @@ This code requires the following:
 
 navigation_v3 | ant
 ------------ | -------------
-![experimental results for navigation_v3 domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/navigation_v3.png) | ![experimental results for ant domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/cheetah.png)
+![experimental results for navigation_v3 domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/navi_v3_rews.png) | ![experimental results for ant domain](https://github.com/HeyuanMingong/llirl/blob/master/exp/ant_rews.png)
 
 Also, the results for other demo scripts are shown in `exp/*`
 
