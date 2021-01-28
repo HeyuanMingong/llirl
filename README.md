@@ -16,7 +16,7 @@ This code requires the following:
 
 ### Usage 
 * For example, to run the code in the navi_v1 domain where the dynamic environment is contructed by changing the goal points, just run the bash script `navi_v1_llirl.sh` for LLIRL, and run the bash script `navi_v1_baselines.sh` for the baseline approaches including CA, Robust, Adaptive, and MAML. Also see the usage instructions in the python scripts `env_clustering.py`, `policy_training.py`, and `baselines.py`.
-* The task information is saved in `saves/*/task_info.npy`. For visualization of the clustering results, plot the task information using the 'task_clustering' function in `data_process.py`.
+* The task information is saved in `saves/*/task_info.npy` files. For visualization of the clustering results, plot the task information using the 'task_clustering' function in `data_process.py`.
 * The performance of all methods is recorded in `output/*/*.npy` files. For visualization of performance comparison, plot the learning curves using the 'perforamnce_comparison' function in `data_process.py`.
 
 ### Example
