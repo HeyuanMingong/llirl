@@ -9,26 +9,10 @@ import matplotlib.pyplot as plt
 import scipy.stats as st
 from sklearn.manifold import TSNE
 
-np.random.seed(950418)
-###############################################################################
-def arr_ave(arr, bs=1, dim=None):
-    if dim is None:
-        arr = arr.squeeze()
-        nl = arr.shape[0]//bs
-        arr_n = np.zeros(nl)
-        for i in range(nl):
-            arr_n[i] = np.mean(arr[bs*i:bs*(i+1)])
-        return arr_n
-    elif dim:
-        arr_n = []
-        for row in arr:
-            row_n = arr_ave(row, bs=bs, dim=None)
-            arr_n.append(row_n)
-        return np.array(arr_n)
-    
 
 ###############################################################################
 ### DOMAIN can be 'navi_v1', 'navi_v2', 'navi_v3', 'hopper', 'cheetah', 'ant'
+np.random.seed(950418)
 DOMAIN = 'navi_v1'
 p_output = 'output/%s'%DOMAIN
 p_model = 'saves/%s'%DOMAIN
@@ -136,6 +120,8 @@ def perforamnce_comparison():
     plt.figure()
     plt.plot(xx, rews_ca, xx, rews_robust, xx, rews_adapt, xx, rews_maml, xx, rews_llirl)
     plt.legend(['CA', 'Robust', 'Adaptive', 'MAML', 'LLIRL'])
+    plt.xlabel('Learning episode', fontsize=16)
+    plt.ylabel('Return', fontsize=16)
     
     return (rews_ca, rews_robust, rews_adapt, rews_maml, rews_llirl)
 data = perforamnce_comparison()
