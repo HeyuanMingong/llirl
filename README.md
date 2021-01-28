@@ -1,6 +1,6 @@
 # LifeLong Incremental Reinforcement Learning (LLIRL)
 
-This repo contains code accompaning the manuscript: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Lifelong incremental reinforcement learning with online Bayesian inference", submitted.]()
+This repo contains code accompaning the manuscript: [Zhi Wang, Chunlin Chen, and Daoyi Dong, "Lifelong incremental reinforcement learning with online Bayesian inference", submitted.](https://arxiv.org/abs/2007.14196)
 It contains code for running the incremental learning domain tasks, including 2D navigation, Hopper, HalfCheetah, and Ant domains.
 
 ### Dependencies
