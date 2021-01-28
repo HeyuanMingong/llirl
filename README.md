@@ -21,6 +21,7 @@ This code requires the following:
 
 ### Example
 * The demo experimental results for the navi_vi domain are showed as
+
 task clustering | performance comparison
 ------------ | -------------
 ![task clustering for navi_v1 domain](https://github.com/HeyuanMingong/llirl/blob/master/demo/navi_v1_clustering.png) | ![performance comparison for navi_v1 domain](https://github.com/HeyuanMingong/llirl/blob/master/demo/navi_v1_performance.png)
